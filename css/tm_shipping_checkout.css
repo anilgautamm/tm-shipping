@@ -1,0 +1,90 @@
+.checkout_shipping_input_class input {
+	float: left;
+}
+#custom_checkout_shipping_field span.woocommerce-input-wrapper label {
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 250px;
+	font-weight: 600;
+}
+#custom_checkout_shipping_field span input {
+	opacity: 0;
+}
+#custom_checkout_shipping_field span .input-radio:checked+label {
+	background: #cfe2f3;
+}
+.custom_reorder_field_section_right {
+	width: 50%;
+	float: right;
+}
+.custom_reorder_field_section_left {
+	width: 49%;
+	float: left;
+}
+.custom_reorder_field_section_right span.woocommerce-input-wrapper {
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.custom_reorder_field_section_right p#billing_address_2_field.custom_reorder_field_right {
+	padding-top: 28px;
+}
+@media only screen and (max-width:980px) {
+	
+	#custom_checkout_shipping_field span.woocommerce-input-wrapper label {
+		width: 100%;
+		text-align: center;
+	}
+	.custom_reorder_field_section_right {
+		width: 100%;
+		float: none;
+	}
+	.custom_reorder_field_section_left {
+		width: 100%;
+		float: none;
+	}
+	.custom_reorder_field_section_right p#billing_address_2_field.custom_reorder_field_right {
+		padding-top: 3px;
+	}
+	
+}
+#billing_state_field .select2-container--default .select2-selection--single {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    margin: -2px 0 0 0;
+    border-radius: 3px;
+    border-color: #bbb;
+}
+#billing_state_field .select2-selection--single .select2-selection__arrow {
+    top: 10px;
+    right: 10px;
+}
+
+#custom_checkout_shipping_id_field label {
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    padding-bottom: 5px;
+}
+#custom_checkout_shipping_id_field span.woocommerce-input-wrapper label {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.woocommerce-shipping-fields #ship-to-different-address {
+    display: none;
+}
+#shipping_state_field span.select2-selection.select2-selection--single {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    margin: -2px 0 0;
+    border-radius: 3px;
+    border-color: #bbb;
+}
+.custom_reorder_field_section_right p#shipping_address_2_field {
+    padding-top: 28px;
+}
